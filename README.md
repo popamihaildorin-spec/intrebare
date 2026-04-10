@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 80px;
   font-size: 32px;
 }
 
@@ -35,9 +35,11 @@ button {
 
 #no {
   background-color: black;
+  color: white;
   position: absolute;
 }
 
+/* inimioare */
 .heart {
   position: absolute;
   animation: float 5s linear infinite;
@@ -94,16 +96,29 @@ function yesClick() {
   document.getElementById("music").play();
 
   document.body.innerHTML = `
-    <h1 style="margin-top:60px;">Știam eu… 😍</h1>
+    <h1 style="margin-top:40px;">Știam eu… 😍</h1>
     <h2>Te iubesc 💖</h2>
     <p>Promit să fie mai bine de data asta 🥺</p>
 
-    <img src="poza.jpg" style="
+    <div style="
       margin-top:20px;
-      width:300px;
-      border-radius:20px;
-      box-shadow:0 0 20px rgba(0,0,0,0.3);
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:10px;
     ">
+
+      <img src="poza1.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza2.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza3.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza4.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza5.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza6.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza7.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza8.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza9.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      <img src="poza10.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+    </div>
 
     <p style="margin-top:20px;font-size:18px;">
       Tu și eu… mereu 💞
