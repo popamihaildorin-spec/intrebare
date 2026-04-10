@@ -118,6 +118,10 @@ function yesClick() {
       <img src="poza8.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
       <img src="poza9.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
       <img src="poza10.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+       <img src="poza11.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+        <img src="poza12.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+         <img src="poza13.jpg" style="width:180px;height:180px;object-fit:cover;border-radius:20px;">
+      
     </div>
 
     <p style="margin-top:20px;font-size:18px;">
