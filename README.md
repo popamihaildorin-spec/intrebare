@@ -1,5 +1,3 @@
-# intrebare
-index.html
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -40,7 +38,6 @@ button {
   position: absolute;
 }
 
-/* inimioare */
 .heart {
   position: absolute;
   animation: float 5s linear infinite;
@@ -118,7 +115,6 @@ function dramaticEnding() {
   document.body.innerHTML = `
     <h1 style="margin-top:120px;">😭 Ai ales NU...</h1>
     <h2>Dar eu tot te iubesc 💔</h2>
-    <p>(Dacă te răzgândești… știi unde mă găsești)</p>
   `;
 }
 
